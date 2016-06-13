@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rs9-O8-T7s">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="178"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="239.5" y="273"/>
+        </imageView>
+        <view contentMode="scaleToFill" id="ShL-TK-uZb" customClass="HZXAboutHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="178"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="about_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Nbt-EP-BFj">
+                    <rect key="frame" x="58" y="30" width="211" height="67"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="211" id="bX0-l3-J5v"/>
+                        <constraint firstAttribute="height" constant="67" id="z2C-5q-uK0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本:3.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4l-vV-AqV">
+                    <rect key="frame" x="0.0" y="136" width="327" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="eaW-YM-GZN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="G4l-vV-AqV" secondAttribute="trailing" id="09W-8q-VlD"/>
+                <constraint firstItem="Nbt-EP-BFj" firstAttribute="centerX" secondItem="ShL-TK-uZb" secondAttribute="centerX" id="Md2-wa-MIw"/>
+                <constraint firstItem="G4l-vV-AqV" firstAttribute="top" secondItem="Nbt-EP-BFj" secondAttribute="bottom" constant="39" id="lUg-Az-ISW"/>
+                <constraint firstItem="Nbt-EP-BFj" firstAttribute="top" secondItem="ShL-TK-uZb" secondAttribute="top" constant="30" id="vXG-yH-qFt"/>
+                <constraint firstItem="G4l-vV-AqV" firstAttribute="leading" secondItem="ShL-TK-uZb" secondAttribute="leading" id="yrI-xp-LWT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="256.5" y="227"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="about_logo" width="211" height="67"/>
+    </resources>
+</document>

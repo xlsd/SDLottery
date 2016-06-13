@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cells</key>
+		<array>
+			<dict>
+				<key>accessoryType</key>
+				<string>UISwitch</string>
+				<key>title</key>
+				<string>开奖提醒</string>
+			</dict>
+		</array>
+		<key>footer</key>
+		<string>开启后 可 设定时间，在开奖时提醒</string>
+	</dict>
+</array>
+</plist>

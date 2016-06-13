@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cells</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>推送我关注的比赛</string>
+				<key>accessoryType</key>
+				<string>UISwitch</string>
+			</dict>
+		</array>
+		<key>footer</key>
+		<string>开启后 当我投注或关注的比赛开始后，会自动发消息提醒</string>
+	</dict>
+	<dict>
+		<key>cells</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>起始时间</string>
+				<key>subTitle</key>
+				<string>00:00</string>
+				<key>cellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+				<key>redColor</key>
+				<true/>
+				<key>key</key>
+				<string>key</string>
+			</dict>
+		</array>
+		<key>header</key>
+		<string>只有在以下时间段内 接收推送</string>
+	</dict>
+	<dict>
+		<key>cells</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>结束时间</string>
+				<key>subTitle</key>
+				<string>24:00</string>
+				<key>cellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+				<key>redColor</key>
+				<true/>
+				<key>key</key>
+				<string>key</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
