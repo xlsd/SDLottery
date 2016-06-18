@@ -48,6 +48,7 @@
 		9A9A63DB1CFC9E4B0005FB0C /* HZXProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A63D91CFC9E4B0005FB0C /* HZXProductCell.m */; };
 		9A9A63DC1CFC9E4B0005FB0C /* HZXProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9A63DA1CFC9E4B0005FB0C /* HZXProductCell.xib */; };
 		9A9A63DF1CFCA0AA0005FB0C /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A63DE1CFCA0AA0005FB0C /* Product.m */; };
+		9AB021BC1D156BD0009AC946 /* NetLottery.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9AB021BB1D156BD0009AC946 /* NetLottery.gif */; };
 		9AB2A02D1CFE6BB7002C8F14 /* HZXProductsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2A02C1CFE6BB7002C8F14 /* HZXProductsController.m */; };
 		9AB2A0341CFEBFEE002C8F14 /* HZXHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2A0331CFEBFEE002C8F14 /* HZXHelpController.m */; };
 		9AB2A0371CFEC02C002C8F14 /* HZXHtmlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2A0361CFEC02C002C8F14 /* HZXHtmlController.m */; };
@@ -166,6 +167,7 @@
 		9A9A63DA1CFC9E4B0005FB0C /* HZXProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZXProductCell.xib; sourceTree = "<group>"; };
 		9A9A63DD1CFCA0AA0005FB0C /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		9A9A63DE1CFCA0AA0005FB0C /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		9AB021BB1D156BD0009AC946 /* NetLottery.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NetLottery.gif; sourceTree = "<group>"; };
 		9AB2A02B1CFE6BB7002C8F14 /* HZXProductsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZXProductsController.h; sourceTree = "<group>"; };
 		9AB2A02C1CFE6BB7002C8F14 /* HZXProductsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZXProductsController.m; sourceTree = "<group>"; };
 		9AB2A0321CFEBFEE002C8F14 /* HZXHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZXHelpController.h; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				9AB2A0381CFEC0B4002C8F14 /* help.json */,
 				9A9A63D61CFC9DBB0005FB0C /* more_project.json */,
 				9A2A85F41CF89C7700CDD0C5 /* Assets.xcassets */,
+				9AB021BB1D156BD0009AC946 /* NetLottery.gif */,
 				9A2A85F91CF89C7700CDD0C5 /* Info.plist */,
 				9A2A85E91CF89C7700CDD0C5 /* main.m */,
 			);
@@ -804,6 +807,7 @@
 				9A2A86511CF8B15000CDD0C5 /* History.storyboard in Resources */,
 				9A2A86471CF8AB2400CDD0C5 /* HZXHallNavController.storyboard in Resources */,
 				9A2A864B1CF8AC7000CDD0C5 /* HZXArenaNavController.storyboard in Resources */,
+				9AB021BC1D156BD0009AC946 /* NetLottery.gif in Resources */,
 				9A9A63DC1CFC9E4B0005FB0C /* HZXProductCell.xib in Resources */,
 				9AF0DD191CFA7E02001BA74C /* setting.plist in Resources */,
 				9AB2A0761CFEC9E7002C8F14 /* y11_howto.html in Resources */,
