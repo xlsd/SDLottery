@@ -1,4 +1,4 @@
-# XL-NetEase-lottery
+# SDLottery
 Use a different plist to load the same controller
 * 使用同一个控制器根据不同的plist文件加载不同界面
 * 加入了引导页的动画效果
